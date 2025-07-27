@@ -39,7 +39,7 @@ body {
 .container {
   width: 90%;
   max-width: 21.25rem;
-  margin: 0 auto 12rem auto;
+  margin: 0 auto 11rem auto;
 }
 
 .card {
@@ -66,21 +66,33 @@ body {
   margin-right: 0.9375rem;
 }
 
+.card header .user-info {
+  display: flex;
+  flex-direction: column;
+}
 header h1 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #111827;
 }
 
 header h3 {
-  font-size: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
   color: #737373;
 }
 
 .content p {
   font-size: 0.9375rem;
   font-weight: 400;
-  color: 	#171717;
-  line-height: 1.5;
+  color: 	#525252;
+  line-height: 1.6;
 }
 
+@media (width: 768px) {
+  .container {
+     width: 90%;
+     max-width: 21.25rem;
+     margin: 0 auto 15rem auto;
+  }
+}
