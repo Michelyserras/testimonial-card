@@ -89,24 +89,3 @@ header h3 {
   line-height: 1.5;
 }
 
-
-@media (min-width: 768px) {
-  .container {
-    padding: 0 32px;
-    width: 100%;
-
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    column-gap: 32px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container {
-    margin: 0 auto;
-    max-width: 1280px;
-    padding: 0 32px;
-
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-    column-gap: 32px;
-  }
-}
