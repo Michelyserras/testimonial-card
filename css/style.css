@@ -11,9 +11,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
-  display: grid;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  
   background-color: #e5e7eb;
 }
 
@@ -41,6 +41,7 @@ body {
 .container{
   width: 340px;
   height: 200px;
+  margin-top: 200px;
 }
 
 .card{
