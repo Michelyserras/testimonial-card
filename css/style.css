@@ -39,7 +39,7 @@ body {
 .container {
   width: 90%;
   max-width: 21.25rem;
-  margin: 0 auto;
+  margin: 0 auto 12rem auto;
 }
 
 .card {
@@ -80,7 +80,7 @@ header h3 {
 .content p {
   font-size: 0.9375rem;
   font-weight: 400;
-  color: #737373;
+  color: 	#171717;
   line-height: 1.5;
 }
 
