@@ -39,7 +39,7 @@ body {
 .container {
   width: 90%;
   max-width: 21.25rem;
-  margin: 0 auto 11rem auto;
+  margin: 0 auto 10rem auto;
 }
 
 .card {
@@ -93,6 +93,6 @@ header h3 {
   .container {
      width: 90%;
      max-width: 21.25rem;
-     margin: 0 auto 23rem auto;
+     margin: 0 auto 24rem auto;
   }
 }
