@@ -89,7 +89,7 @@ header h3 {
   line-height: 1.6;
 }
 
-@media (width: 768px) {
+@media (width: 768px) and (height: 1024px) {
   .container {
      width: 90%;
      max-width: 21.25rem;
